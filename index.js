@@ -5,3 +5,7 @@ const findMatching = (array, string) => {
 const fuzzyMatch = (array, string) => {
   return array.filter(element => element.startsWith(string))
 };
+
+const fuzzyMatch = (array, string) => {
+  return array.filter(element => element.startsWith(string))
+};
