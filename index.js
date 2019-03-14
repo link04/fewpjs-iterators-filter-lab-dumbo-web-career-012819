@@ -3,5 +3,5 @@ const findMatching = (array, string) => {
 };
 
 const fuzzyMatch = (array, string) => {
-  return array.filter(element => element.toLowerCase() == string.toLowerCase() );
+  return array.filter(element => element.startsWith(string))
 };
