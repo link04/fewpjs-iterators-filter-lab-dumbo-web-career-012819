@@ -7,5 +7,5 @@ const fuzzyMatch = (array, string) => {
 };
 
 const matchName = (array, string) => {
-  return array.filter(element => element.startsWith(string))
+  return array.filter(element => element.name == string)
 };
