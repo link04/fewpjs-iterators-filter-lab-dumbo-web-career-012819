@@ -1,3 +1,3 @@
-const findMatching = () => {
+const findMatching = (arrray, string) => {
   
 };
